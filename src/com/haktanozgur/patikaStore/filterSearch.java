@@ -56,12 +56,12 @@ public class filterSearch {
 		  "İndirim oranı","\t"+"Stok Sayısı","\t"+"Hafıza","\t"+"Pil Enerjisi","\t"+"Ram","\t"+"Ekran Boyutu");
 
 	  for(int i = 0; i <= filterSearch.phoneFilterList.size()-1; i++){
-			 String markaString = phoneList.phoneArrayList.get(i).brandName.getValueString();
-			 String code = phoneList.phoneArrayList.get(i).uniqueID;
-			 String modalName = phoneList.phoneArrayList.get(i).name;
-			 Double priceDouble = phoneList.phoneArrayList.get(i).price;
-			 int discount = phoneList.phoneArrayList.get(i).discountRate;
-			 int stock = phoneList.phoneArrayList.get(i).stock;
+			 String markaString = filterSearch.phoneFilterList.get(i).brandName.getValueString();
+			 String code = filterSearch.phoneFilterList.get(i).uniqueID;
+			 String modalName = filterSearch.phoneFilterList.get(i).name;
+			 Double priceDouble = filterSearch.phoneFilterList.get(i).price;
+			 int discount = filterSearch.phoneFilterList.get(i).discountRate;
+			 int stock = filterSearch.phoneFilterList.get(i).stock;
 			 int energy = phone.energy;
 			 int ram = phone.ram;
 			 float screenSize = phone.screenSize;

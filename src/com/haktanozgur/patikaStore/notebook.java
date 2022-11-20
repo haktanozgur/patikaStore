@@ -69,7 +69,6 @@ public class notebook implements products {
 				int filterSearchCount = filterSearch.notebookFilterList.size();
 				System.out.println("Mağaza aramasında toplam "+filterSearchCount+" notebook ürünü bulundu");
 				System.out.println("***Notebook Listesi***");
-				System.out.println("Mağaza aramasında toplam "+filterSearch.notebookFilterList.size()+" notebook ürünü bulundu");
 				filterSearch.getNotebookFilterList();
 				filterSearch.notebookFilterList.clear();
 			}
